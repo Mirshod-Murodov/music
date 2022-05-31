@@ -1,0 +1,452 @@
+*,body{
+   padding: 0;
+   margin: 0;
+}
+body{
+   background: url('../folder/img/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg') rgba(0, 0, 0, 0.548);
+   background-size: 100%;
+   background-position: center;
+   background-blend-mode: multiply;
+   
+}
+.containerr{
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   width: 100%;
+   height: 65px;
+   background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+   position: relative;
+   .navbar{
+      margin: 0 auto;
+      width: 85%;
+      height: 65px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      .log{
+         width: 100px;
+         height: 60px;
+         position: relative;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         
+         img{
+            width: 40px;
+            height: 35px;
+            object-fit: cover;
+         }
+         .log-tex{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 16px;
+            font-family: candara;
+            font-weight: 600;
+         }
+      }
+      .collapse{
+         width: 85%;
+         height: 65px;
+         position: relative;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         .navbar-nav{
+            width: 35%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .nav-item{
+               list-style-type: none;
+               .nav-a{
+                  text-decoration: none;
+                  color: rgb(255, 255, 255);
+                  opacity: 0.8;
+                  font-family: candara;
+                  font-size: 18px;
+                  font-weight: 500;
+                  transition: 0.3s ease-in;
+                  &:hover {
+                     opacity: 1;
+                     transition:  0.3s ease-in;
+                  }
+               }
+               
+            }
+         }
+         .form-inline{
+            .form-control{
+               width:150px;
+               height: 25px;
+               position: relative;
+               padding: 0 5px;
+               outline: none;
+               border: none;
+               border-bottom: 1.5px solid white;
+               background: transparent;
+               color: white;
+               font-family: candara;
+               font-size: 16px;
+               &::placeholder{
+                  color: white;
+                  font-family: candara;
+               }
+            }
+            .btn-sign{
+               width: 80px;
+               height: 30px;
+               cursor: pointer;
+               position: relative;
+               border: none;
+               border-radius: 10px;
+               background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+               box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+               color: rgb(255, 255, 255);
+               font-family: candara;
+               font-size: 16px;
+               // text-shadow: -2px 0px 2px rgba(0, 0, 0, 1);
+            }
+         }
+      }
+   }
+}
+.container{
+   width: 100%;
+   height: 400px;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   .search-con{
+      width: 85%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      backdrop-filter: blur(5px);
+      // background-color: rgba(255, 255, 255, 0.144);
+      h1{
+         color: white;
+         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-weight: 500;
+         font-size: 35px;
+         letter-spacing: 4px;
+      }
+      p{
+         color: white;
+         opacity: 0.8;
+         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-size: 16px;
+         font-weight: 400;
+         letter-spacing: 1px;
+      }
+      .serch-in{
+         background-color: white;
+         width: 80%;
+         position: relative;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         border-radius: 5px;
+         overflow: hidden;
+         span{
+            display: inline;
+            width: 50px;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            .fa-search{
+               color: black;
+               font-size: 18px;
+               font-weight: 500;
+            }
+         }
+         form{
+            width: 100%;
+            
+            .serchmus{
+               width: 100%;
+               padding: 24px;
+               position: relative;
+               border: none;
+               outline: none;
+               background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+               letter-spacing: normal;
+               word-spacing: normal;
+               font-size: 18px;
+            }
+         }
+      }
+      .janr-con{
+         width: 100%;
+         height: 100px;
+         // background-color: red;
+         position: relative;
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         a{
+            text-decoration: none;
+            .jandr-box {
+                  padding: 10px 20px;
+                  // background-color: gold;
+                  position: relative;
+                  border-radius: 20px;
+                  color: white;
+                  font-size: 16px;
+                  font-family: candara;
+                  font-weight: 500;
+                  border: 1.5px solid white;
+                  &:hover{
+                     transition: 0.1s ease-in-out;
+                     opacity: 0.8;
+                  }
+               }
+         }
+      }
+   }
+}
+.container:nth-child(3){
+   background-color: #F7F7F7;
+   .music-box{
+      width: 85%;
+      // height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      padding: 12px 16px;
+      border-radius: 4px;
+      background-color: #fff;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+      .music-img{
+         width: 50px;
+         height: 50px;
+         border-radius: 2px;
+         margin-right: 10px;
+         img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+         }
+      }
+      .playerm{
+         width: 350px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         .btn-box{
+            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .play-btn,
+            .pause-btn,
+            .volume-up-btn,
+            .volume-down-btn,
+            .load-btn {
+               border: none;
+               background: transparent;
+               font-size: 20px;
+               cursor: pointer;
+               color: black;
+               padding: 10px;
+               transition: 0.5s;
+               border: 1px solid transparent;
+               border-radius: 2px;
+               &:active{
+                  transform: scale(0.8);
+                  border-color: black;
+                  transition: 0.5s;
+               }
+            }
+            .play-btn{
+               font-size: 45px;
+            }
+            .play-btn:focus{
+               animation: zoomIn 1s infinite;
+               
+            }
+            .pause-btn,.load-btn{
+               font-size: 30px;
+            }
+
+
+
+
+            
+         }
+         
+      }
+      .music-text{
+         width: 400px;
+         // background-color: red;
+         display: flex;
+         align-items: flex-start;
+         justify-content: space-between;
+         flex-direction: column;
+         .music-name{
+            color: black;
+            font-size: 30px;
+            font-weight: 500;
+            letter-spacing: 2px;
+            font-family: candara;
+         }
+         .autor{
+            color: black;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            font-family: candara;
+         }
+         .date{
+            color: black;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            font-family: candara;
+         }
+      }
+      .music-btn{
+         transform: translateX(100%);
+         a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+            font-family: candara;
+            font-weight: 600;
+            padding: 10px 15px;
+            background-color: lightgreen;
+            border-radius: 2px;
+         }
+      }
+   }
+}
+@keyframes zoomIn {
+   0% {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+      transform: scale3d(.3, .3, .3);
+   }
+
+   50% {
+      opacity: 1;
+   }
+}
+.container-admin{
+   width: 100%;
+   height: 100vh;
+   
+   form{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .mt-5{
+         width: 85%;
+         height: 100vh;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         // background-color: red;
+         backdrop-filter: blur(5px);
+         .dat{
+            input[type="date"] {
+                  background: rgba(250, 14, 14, 0) url('../folder/img/calendar.png')  no-repeat;
+                  background-size: 32px;
+                  background-position: 99%;
+                  
+               }
+            input[type="date"]::-webkit-inner-spin-button {
+               display: none;
+            }
+            input[type="date"]::-webkit-calendar-picker-indicator {
+               opacity: 0;
+            }
+         }
+         .form-group{
+            width: 100%;
+            color: white;padding: 12px 16px;
+            font-family: candara;
+            font-size: 20px;
+            &:nth-child(4){
+               display: flex;
+               align-items: center;
+               justify-content: center;
+            }
+            label{
+               color:skyblue;
+            }
+            #exampleInputEmail2[type="file"]{
+               display: none;
+            }
+            #exampleInputEmail3{
+               cursor: pointer;
+               color: white;
+               height: 60px;
+               width: 250px;
+               background-color: #f5af09;
+               margin:  auto;
+               top: 0;
+               left: 0;
+               right: 0;
+               bottom: 0;
+               border-radius: 5px;
+               font-size: 20px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               font-family: "Montserrat",sans-serif;
+               img{
+                  width: 45px;
+                  height: 45px;
+                  object-fit: cover;
+               }
+               &:active{
+                  transform: scale(0.9);
+                  transition: 0.3s ease-in-out;
+               }
+            }
+         }
+         .form-control{
+            width: 100%;
+            padding: 12px 16px;
+            outline: none;
+            border: none;
+            border-bottom: 1.5px solid white;
+            background-color: transparent;
+            color: white;
+            font-size: 18px;
+            &::placeholder{
+               color: white;
+               background-color: transparent;
+               
+            }
+            &:focus{
+                  border-color: rgb(0, 255, 128);
+                  transition: 0.3s ease-in-out;
+               }
+            
+         }
+         .btn-primary{
+            border: none;
+            background-color: #1D8FE1;
+            color: white;
+            font-size: 22px;
+            border-radius: 5px;
+            font-family: candara;
+            width: 55%;
+            padding: 12px 16px;
+            cursor: pointer;
+            &:active {
+                  transform: scale(0.9);
+                  transition: 0.3s ease-in-out;
+               }
+         }
+      }
+   }
+}

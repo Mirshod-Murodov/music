@@ -1,0 +1,667 @@
+*, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url("../folder/img/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg") rgba(0, 0, 0, 0.548);
+  background-size: 100%;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.containerr {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width: 100%;
+  height: 65px;
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  position: relative;
+}
+
+.containerr .navbar {
+  margin: 0 auto;
+  width: 85%;
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.containerr .navbar .log {
+  width: 100px;
+  height: 60px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.containerr .navbar .log img {
+  width: 40px;
+  height: 35px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.containerr .navbar .log .log-tex {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: candara;
+  font-weight: 600;
+}
+
+.containerr .navbar .collapse {
+  width: 85%;
+  height: 65px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.containerr .navbar .collapse .navbar-nav {
+  width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.containerr .navbar .collapse .navbar-nav .nav-item {
+  list-style-type: none;
+}
+
+.containerr .navbar .collapse .navbar-nav .nav-item .nav-a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+  font-family: candara;
+  font-size: 18px;
+  font-weight: 500;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.containerr .navbar .collapse .navbar-nav .nav-item .nav-a:hover {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.containerr .navbar .collapse .form-inline .form-control {
+  width: 150px;
+  height: 25px;
+  position: relative;
+  padding: 0 5px;
+  outline: none;
+  border: none;
+  border-bottom: 1.5px solid white;
+  background: transparent;
+  color: white;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.containerr .navbar .collapse .form-inline .form-control::-webkit-input-placeholder {
+  color: white;
+  font-family: candara;
+}
+
+.containerr .navbar .collapse .form-inline .form-control:-ms-input-placeholder {
+  color: white;
+  font-family: candara;
+}
+
+.containerr .navbar .collapse .form-inline .form-control::-ms-input-placeholder {
+  color: white;
+  font-family: candara;
+}
+
+.containerr .navbar .collapse .form-inline .form-control::placeholder {
+  color: white;
+  font-family: candara;
+}
+
+.containerr .navbar .collapse .form-inline .btn-sign {
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  color: white;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .search-con {
+  width: 85%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+.container .search-con h1 {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  letter-spacing: 4px;
+}
+
+.container .search-con p {
+  color: white;
+  opacity: 0.8;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.container .search-con .serch-in {
+  background-color: white;
+  width: 80%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.container .search-con .serch-in span {
+  display: inline;
+  width: 50px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.container .search-con .serch-in span .fa-search {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container .search-con .serch-in form {
+  width: 100%;
+}
+
+.container .search-con .serch-in form .serchmus {
+  width: 100%;
+  padding: 24px;
+  position: relative;
+  border: none;
+  outline: none;
+  background-color: -internal-light-dark(white, #3b3b3b);
+  letter-spacing: normal;
+  word-spacing: normal;
+  font-size: 18px;
+}
+
+.container .search-con .janr-con {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container .search-con .janr-con a {
+  text-decoration: none;
+}
+
+.container .search-con .janr-con a .jandr-box {
+  padding: 10px 20px;
+  position: relative;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  font-family: candara;
+  font-weight: 500;
+  border: 1.5px solid white;
+}
+
+.container .search-con .janr-con a .jandr-box:hover {
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  opacity: 0.8;
+}
+
+.container:nth-child(3) {
+  background-color: #F7F7F7;
+}
+
+.container:nth-child(3) .music-box {
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 12px 16px;
+  border-radius: 4px;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.container:nth-child(3) .music-box .music-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.container:nth-child(3) .music-box .music-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container:nth-child(3) .music-box .playerm {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container:nth-child(3) .music-box .playerm .btn-box {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container:nth-child(3) .music-box .playerm .btn-box .play-btn,
+.container:nth-child(3) .music-box .playerm .btn-box .pause-btn,
+.container:nth-child(3) .music-box .playerm .btn-box .volume-up-btn,
+.container:nth-child(3) .music-box .playerm .btn-box .volume-down-btn,
+.container:nth-child(3) .music-box .playerm .btn-box .load-btn {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  padding: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.container:nth-child(3) .music-box .playerm .btn-box .play-btn:active,
+.container:nth-child(3) .music-box .playerm .btn-box .pause-btn:active,
+.container:nth-child(3) .music-box .playerm .btn-box .volume-up-btn:active,
+.container:nth-child(3) .music-box .playerm .btn-box .volume-down-btn:active,
+.container:nth-child(3) .music-box .playerm .btn-box .load-btn:active {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  border-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container:nth-child(3) .music-box .playerm .btn-box .play-btn {
+  font-size: 45px;
+}
+
+.container:nth-child(3) .music-box .playerm .btn-box .play-btn:focus {
+  -webkit-animation: zoomIn 1s infinite;
+          animation: zoomIn 1s infinite;
+}
+
+.container:nth-child(3) .music-box .playerm .btn-box .pause-btn, .container:nth-child(3) .music-box .playerm .btn-box .load-btn {
+  font-size: 30px;
+}
+
+.container:nth-child(3) .music-box .music-text {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container:nth-child(3) .music-box .music-text .music-name {
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-family: candara;
+}
+
+.container:nth-child(3) .music-box .music-text .autor {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: candara;
+}
+
+.container:nth-child(3) .music-box .music-text .date {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: candara;
+}
+
+.container:nth-child(3) .music-box .music-btn {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.container:nth-child(3) .music-box .music-btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-family: candara;
+  font-weight: 600;
+  padding: 10px 15px;
+  background-color: lightgreen;
+  border-radius: 2px;
+}
+
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.container-admin {
+  width: 100%;
+  height: 100vh;
+}
+
+.container-admin form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-admin form .mt-5 {
+  width: 85%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+.container-admin form .mt-5 .dat input[type="date"] {
+  background: rgba(250, 14, 14, 0) url("../folder/img/calendar.png") no-repeat;
+  background-size: 32px;
+  background-position: 99%;
+}
+
+.container-admin form .mt-5 .dat input[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+.container-admin form .mt-5 .dat input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.container-admin form .mt-5 .form-group {
+  width: 100%;
+  color: white;
+  padding: 12px 16px;
+  font-family: candara;
+  font-size: 20px;
+}
+
+.container-admin form .mt-5 .form-group:nth-child(4) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-admin form .mt-5 .form-group label {
+  color: skyblue;
+}
+
+.container-admin form .mt-5 .form-group #exampleInputEmail2[type="file"] {
+  display: none;
+}
+
+.container-admin form .mt-5 .form-group #exampleInputEmail3 {
+  cursor: pointer;
+  color: white;
+  height: 60px;
+  width: 250px;
+  background-color: #f5af09;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Montserrat",sans-serif;
+}
+
+.container-admin form .mt-5 .form-group #exampleInputEmail3 img {
+  width: 45px;
+  height: 45px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container-admin form .mt-5 .form-group #exampleInputEmail3:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.container-admin form .mt-5 .form-control {
+  width: 100%;
+  padding: 12px 16px;
+  outline: none;
+  border: none;
+  border-bottom: 1.5px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+}
+
+.container-admin form .mt-5 .form-control::-webkit-input-placeholder {
+  color: white;
+  background-color: transparent;
+}
+
+.container-admin form .mt-5 .form-control:-ms-input-placeholder {
+  color: white;
+  background-color: transparent;
+}
+
+.container-admin form .mt-5 .form-control::-ms-input-placeholder {
+  color: white;
+  background-color: transparent;
+}
+
+.container-admin form .mt-5 .form-control::placeholder {
+  color: white;
+  background-color: transparent;
+}
+
+.container-admin form .mt-5 .form-control:focus {
+  border-color: #00ff80;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.container-admin form .mt-5 .btn-primary {
+  border: none;
+  background-color: #1D8FE1;
+  color: white;
+  font-size: 22px;
+  border-radius: 5px;
+  font-family: candara;
+  width: 55%;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.container-admin form .mt-5 .btn-primary:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+/*# sourceMappingURL=index.css.map */
